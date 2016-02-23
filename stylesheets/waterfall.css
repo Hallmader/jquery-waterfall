@@ -2,7 +2,10 @@
     position: relative;
     float: left;
 }
-
+.content img {
+    width: 200px;
+}
+/*以上是必须的，但img的宽度可以自行修改。但.box的样式不能改动*/
 .content {
     padding: 5px;
     border: 1px solid #ccc;
@@ -10,6 +13,3 @@
     border-radius: 5px;
 }
 
-.content img {
-    width: 200px;
-}
